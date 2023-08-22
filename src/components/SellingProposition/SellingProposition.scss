@@ -1,0 +1,37 @@
+.selling-proposition {
+  height: 700px;
+  background-color: #f1fdf7;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding: 0 20px;
+  font-weight: 500;
+}
+.items {
+  h6 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #666;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.title-img {
+  display: flex;
+  align-items: center;
+}
+.icon-tick {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}

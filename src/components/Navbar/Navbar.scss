@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #013914;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: 0.5s all ease;
+  &.active {
+    background-color: white;
+    color: black;
+    border-bottom: 0.5px solid #ebe9e9;
+  }
+}
+.branch-name {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+.dot {
+  color: #1dbf73;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
