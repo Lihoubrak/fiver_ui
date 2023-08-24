@@ -8,18 +8,14 @@ import Explore from "../components/Explore/Explore";
 import Business from "../components/Business/Business";
 import CardSeller from "../components/CardSeller/CardSeller";
 import Footer from "../components/Footer/Footer";
+import ListProduct from "../components/ListProduct/ListProduct";
+import ProductDetail from "../components/ProductDetail/ProductDetail";
 
-const DefaultLayot = () => {
+const DefaultLayot = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <Banner />
-      <Sponser />
-      <Slide slidesToShow={5} arrowsScroll={5} />
-      <SellingProposition />
-      <Explore />
-      <Business />
-      <Slide cardSeller slidesToShow={4} arrowsScroll={4} />
+      {children}
       <Footer />
     </div>
   );

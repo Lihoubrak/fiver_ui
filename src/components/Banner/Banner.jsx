@@ -28,7 +28,7 @@ const Banner = () => {
           <button className="btn">Ai Services</button>
         </div>
       </div>
-      <div class="right">
+      <div className="right">
         <img src="./img/man.png" alt="" className="image=banner" />
       </div>
     </div>
